@@ -1,0 +1,21 @@
+- projeto resetado
+- adcionado tailwind para facilitar o css do projeto (tailwind.config.js)
+- arquivo: globals.css -> importa base, components e utilities do tailwind
+- arquivo: babel.config.js e metro.config.js para configurar o tailwind
+- cores da paleta: categorizadas em tailwind.comfig.js 
+- Para adcionar página nova ao app:
+    * crie a página dentro da pasta app, no formato .tsx
+    * com a extensão do react snippets, digite rnfes pra gerar o código base da página
+    * crie o link para a nova página na página de onde essa página veio
+    * importe Link de expo-router na página nova pra poder colocar os links de outras
+
+
+
+
+
+
+
+
+
+############# NEEDS FIX ###############
+- a tela Inventário deve voltar somente para Gerenciar Inventário

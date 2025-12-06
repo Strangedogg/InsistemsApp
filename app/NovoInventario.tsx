@@ -7,7 +7,7 @@ const NovoInventario = () => {
   return (
     <View className="flex-1 justify-center items-center">
       <Text>NovoInventario</Text>
-      <Link className="text-4xl text-primary font-bold" href="./GerenciarInventarios/Inventario">Prosseguir</Link>
+      <Link className="text-4xl text-primary font-bold" href="/Inventario">Prosseguir</Link>
     </View>
   )
 }

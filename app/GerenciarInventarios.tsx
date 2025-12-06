@@ -7,8 +7,8 @@ const GerenciarInventarios = () => {
   return (
     <View className="flex-1 justify-center items-center">
       <Text>NovoInventario</Text>
-      <Link className="text-4xl text-primary font-bold" href="./GerenciarInventarios/BaixarRelatoriosAnteriores">Baixar Relatórios Anteriores</Link>
-      <Link className="text-4xl text-primary font-bold" href="./GerenciarInventarios/Inventario">Inventário</Link>
+      <Link className="text-4xl text-primary font-bold" href="/BaixarRelatoriosAnteriores">Baixar Relatórios Anteriores</Link>
+      <Link className="text-4xl text-primary font-bold" href="/Inventario">Inventário</Link>
     </View>
   )
 }

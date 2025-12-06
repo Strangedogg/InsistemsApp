@@ -1,6 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
 import { Link } from "expo-router"
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
 
 // can get here from: novo inventário, gerenciar inventários
@@ -11,7 +11,7 @@ const Inventario = () => {
   return (
     <View className="flex-1 justify-center items-center">
       <Text>Inventario</Text>
-      <Link className="text-4xl text-primary font-bold" href="/Salas">Salas</Link>
+      <Link className="text-4xl text-primary font-bold" href="./Shared/Components/Salas">Salas</Link>
     </View>
   )
 }

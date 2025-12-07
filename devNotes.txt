@@ -17,5 +17,5 @@
 
 
 
-############# NEEDS FIX ###############
-- a tela Inventário deve voltar somente para Gerenciar Inventário
+############# ATENTION ###############
+- Em gerenciar salas  falta uma forma de salvar as salas

@@ -1,5 +1,6 @@
 import { Text, TouchableOpacity, View, TextInput } from "react-native";
 import { useState } from "react";
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const GerenciarSalas = () => {
   const [showInput, setShowInput] = useState(false);
@@ -7,6 +8,7 @@ const GerenciarSalas = () => {
 
   const handleSaveRoom = () => {
     if (roomName.trim()) {
+      
       console.log("Sala salva:", roomName);
       // here I will have to use a reader to save the room somewhere
       setRoomName("");

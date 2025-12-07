@@ -3,8 +3,8 @@ import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
 
-// can get here from: novo inventário, gerenciar inventários
-// must go back only to: gerenciar inventários ###STILL NEEDS FIX###
+// can get here from: Index
+// 
 // goes to: Salas, Itens verificados, Itens não verificados, Itens indefinidos, Finalizar
 
 const Inventario = () => {

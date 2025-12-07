@@ -11,7 +11,7 @@ const Inventario = () => {
   return (
     <View className="flex-1 justify-center items-center">
       <Text>Inventario</Text>
-      <Link className="text-4xl text-primary font-bold" href="./Shared/Components/Salas">Salas</Link>
+      <Link className="text-4xl text-primary font-bold" href="./Salas">Salas</Link>
     </View>
   )
 }

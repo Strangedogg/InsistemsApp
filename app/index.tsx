@@ -1,6 +1,8 @@
 import { Text, TouchableOpacity, View, Button } from "react-native";
 import {Link} from "expo-router";
-import { useState } from "react";
+import { useState } from 'react';
+
+
 
 //goes to: gerenciar salas
 //goes to if: (View)
@@ -17,6 +19,7 @@ export default function Index() {
 
 
   return (
+    
     <View className="flex-1 justify-center items-center">
       {salas && !lista && (
         <TouchableOpacity className="p-5 bg-blue-500 rounded-lg m-2" onPress={() => setLista(!lista)}> 
@@ -29,7 +32,7 @@ export default function Index() {
       )}
       
       {salas && lista && (
-        <Link href="/Sala/Shared/Components/Inventario" asChild>
+        <Link href="/src/screens/Inventario" asChild>
           <TouchableOpacity className="p-5 bg-blue-500 rounded-lg m-2">
             <Text className="text-4xl text-primary font-bold">Inventário</Text>
           </TouchableOpacity>
@@ -37,14 +40,14 @@ export default function Index() {
       )}
       
       {inventarios && (
-        <Link href="/Sala/Shared/Components/BaixarRelatoriosAnteriores" asChild>
+        <Link href="/src/screens/BaixarRelatoriosAnteriores" asChild>
           <TouchableOpacity className="p-5 bg-blue-500 rounded-lg m-2">
             <Text className="text-4xl text-primary font-bold">Relatórios Anteriores</Text>
           </TouchableOpacity>
         </Link>
       )}
       
-      <Link href="/Sala/Shared/Components/GerenciarSalas" asChild>
+      <Link href="/src/screens/GerenciarSalas" asChild>
         <TouchableOpacity className="p-5 bg-blue-500 rounded-lg m-2">
           <Text className="text-4xl text-primary font-bold">Gerenciar Salas</Text>
         </TouchableOpacity>

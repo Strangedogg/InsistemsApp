@@ -1,6 +1,6 @@
 import { Link } from "expo-router"
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 
 
 // can get here from: Index
@@ -11,7 +11,11 @@ const Inventario = () => {
   return (
     <View className="flex-1 justify-center items-center">
       <Text>Inventario</Text>
-      <Link className="text-4xl text-primary font-bold" href="./Salas">Salas</Link>
+      <Link href="./Salas" asChild>
+      <TouchableOpacity className="p-5 bg-blue-500 rounded-lg m-2">
+         <Text className="text-4xl text-white font-bold">Salas</Text>
+      </TouchableOpacity>
+      </Link>
     </View>
   )
 }
